@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Search UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="search-wrapper">
+    <input type="text" id="searchInput" placeholder="Search..." />
+    <button id="searchButton">
+      🔍
+    </button>
+  </div>
+
+  <ul id="results"></ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
